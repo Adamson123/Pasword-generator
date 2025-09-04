@@ -3,12 +3,12 @@
 A simple CLI tool that creates a random password with a mix of lowercase, uppercase, digits, and special characters.  
 This is my first Python project.
 
--   Main script: [passwordGenerator.py](c:\Users\Admin\Desktop\Learn-python\passwordGenerator.py)
+-   Main script: [passwordGenerator.py](c:\Users\Admin\Desktop\Password-generator\passwordGenerator.py)
 -   Core functions:
-    -   [`validateLength`](c:\Users\Admin\Desktop\Learn-python\passwordGenerator.py)
-    -   [`getAmountForEachCharacters`](c:\Users\Admin\Desktop\Learn-python\passwordGenerator.py)
-    -   [`pickRandomCharacter`](c:\Users\Admin\Desktop\Learn-python\passwordGenerator.py)
-    -   [`generatePassword`](c:\Users\Admin\Desktop\Learn-python\passwordGenerator.py)
+    -   [`validateLength`](c:\Users\Admin\Desktop\Password-generator\passwordGenerator.py)
+    -   [`getAmountForEachCharacters`](c:\Users\Admin\Desktop\Password-generator\passwordGenerator.py)
+    -   [`pickRandomCharacter`](c:\Users\Admin\Desktop\Password-generator\passwordGenerator.py)
+    -   [`generatePassword`](c:\Users\Admin\Desktop\Password-generator\passwordGenerator.py)
 
 ## Requirements
 
@@ -20,8 +20,8 @@ This is my first Python project.
 From the project folder:
 
 1. Open a terminal in the project directory:
-    - PowerShell: `cd "C:\Users\Admin\Desktop\Learn-python"`
-    - CMD: `cd C:\Users\Admin\Desktop\Learn-python`
+    - PowerShell: `cd "C:\Users\Admin\Desktop\Password-generator"`
+    - CMD: `cd C:\Users\Admin\Desktop\Password-generator`
 2. Show help:
     - `py .\passwordGenerator.py -h`
 3. Generate a password:
