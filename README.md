@@ -54,9 +54,9 @@ print(generatePassword(12))
 ## How it works
 
 -   Target mix (default): ~40% lowercase, ~25% uppercase, ~20% digits, ~15% special.
--   Exact counts are computed in [`getAmountForEachCharacters`](c:\Users\Admin\Desktop\Learn-python\passwordGenerator.py) using rounding; any remainder is added to lowercase.
--   Characters are picked randomly per category in [`generatePassword`](c:\Users\Admin\Desktop\Learn-python\passwordGenerator.py).
+-   Exact counts are computed in [`getAmountForEachCharacters`](c:\Users\Admin\Desktop\Password-generator\passwordGenerator.py) using rounding; any remainder is added to lowercase.
+-   Characters are picked randomly per category in [`generatePassword`](c:\Users\Admin\Desktop\Password-generator\passwordGenerator.py).
 
 ## Exit behavior
 
--   If the length is invalid or < 6, [`validateLength`](c:\Users\Admin\Desktop\Learn-python\passwordGenerator.py) calls `sys.exit(...)`, causing the program to exit with an error.
+-   If the length is invalid or < 6, [`validateLength`](c:\Users\Admin\Desktop\Password-generator\passwordGenerator.py) calls `sys.exit(...)`, causing the program to exit with an error.
